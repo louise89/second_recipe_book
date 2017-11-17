@@ -1,0 +1,6 @@
+    <ul>
+    <%= ingredient.name %>
+    <%= link_to 'Delete', [ingredient.recipe, ingredient],
+                 method: :delete,
+                 data: { confirm: 'Are you sure?' } %>
+  </ul>
